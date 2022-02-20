@@ -131,7 +131,24 @@ npx cypress run --headless --browser chrome
 
 ## Running at Github Actions
 
+```
+#     In the Sketch challenge repository, you need to click on "Re-run all jobs" or push a new code into your working branch, and Actions
+#     will run  the tests
+```
 
+![Github Actions](./docs/githubActions.gif)
+
+```
+#     After Actions run all tests, the results will be at Cypress dashboard
+```
+
+![Cypress Dashboard](./docs/cypressDash.gif)
+
+```
+#     Cypress dashboard has an integration mode with Slack, which is helpful
+```
+
+![Slack Integration](./docs/slackIntegration.gif)
 
 ## Project architecture
 
