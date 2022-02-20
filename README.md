@@ -93,7 +93,7 @@ Scenario: Sign In - Forgot Password
 ### Step-by-step
 ```
 # Clone this repository and change to the project directory:
-git clone https://github.com/pedrofmartins/sketch-automation-project.git && cd sketch-challenge
+git clone https://github.com/pedrofmartins/sketch-challenge.git && cd sketch-challenge
 
 # In order to run locally, you will need to create the cypress.env.file with your credentials:
 ```
