@@ -1,0 +1,27 @@
+node_modules
+
+# Logs
+logs
+*.log
+local.log
+
+# Reports 
+reports
+*.xml
+
+#results
+/results
+
+# Cypress records
+cypress/videos
+cypress/screenshots
+
+# dependencies
+/node_modules
+
+# misc
+npm-debug.log*
+yarn.lock
+#cypress.json
+cypress.env.json
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "projectId": "oy76s1",
+  "testFiles": "**/*.{feature,features}",
+  "chromeWebSecurity": false,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "baseUrl": "https://www.sketch.com",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/report-[hash].xml",
+    "toConsole" : true
+  },
+  "video": true,
+  "screenshotOnRunFailure": true,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 8000,
+  "watchForFileChanges": true,
+  "env": {
+    "TAGS": "not @manual and not @maintenance and @automated"
+  }
+}
