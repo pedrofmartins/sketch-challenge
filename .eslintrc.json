@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:cypress/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": { },
+    "plugins": ["cypress"],
+    "ecmaFeatures": {
+    "jsx": true,
+    "modules":true,
+    "arrowFunctions":true,
+    "classes":true,
+    "spread":true,
+
+  },
+}
