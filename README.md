@@ -93,6 +93,7 @@ Scenario: Sign In - Forgot Password
 ### Step-by-step
 ```
 # Clone this repository and change to the project directory:
+
 git clone https://github.com/pedrofmartins/sketch-challenge.git && cd sketch-challenge
 
 # In order to run locally, you will need to create the cypress.env.file with your credentials:
@@ -102,6 +103,7 @@ git clone https://github.com/pedrofmartins/sketch-challenge.git && cd sketch-cha
 # It is also possible to run the tests pipeline, If this is the case you will just need to click on the Run pipeline button :)
 
 # Install the dependencies:
+
 npm install
 
 # If it's the first time you run the project it will take some time for
@@ -109,7 +111,9 @@ npm install
 
 # Now cypress is installed and ready to use
 #     If you want to see the running you can open the cypress GUI
+
 npx cypress open
+
 #     And select one spec file to run. In our case is the Login.Feature
 ```
 ![Open Cypress](./docs/cypressOpen.gif)
@@ -118,8 +122,11 @@ npx cypress open
 ![Cypress Tests](./docs/cypressTests.gif)
 ```
 #     Or you can run the tests headless with:
+
 npx cypress run --headless
+
 #     You also can choose the browser you want to run with:
+
 npx cypress run --headless --browser chrome
 ```
 
@@ -133,7 +140,7 @@ npx cypress run --headless --browser chrome
 
 ```
 #     In the Sketch challenge repository, you need to click on "Re-run all jobs" or push a new code into your working branch, and Actions
-#     will run  the tests
+#     will run the tests
 ```
 
 ![Github Actions](./docs/githubActions.gif)
